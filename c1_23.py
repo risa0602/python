@@ -1,0 +1,5 @@
+price = input('料金を入力 >>')
+number = input('人数を入力 >>')
+payment = int(price/number)
+print(f'お支払いは{payment}円です')
+
